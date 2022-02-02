@@ -95,9 +95,9 @@ body {
   padding-left: 400px;
   padding-right: 400px;
 }
-
+/* Inner Div */
 .inner {
-  background: #defbc9;
+  background: #28292c;
   border-radius: 30px;
   vertical-align: middle;
   height: 50%;
@@ -109,13 +109,50 @@ body {
 }
 
 .inner h1 {
-  font-size: 18px;
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
 }
 
+/* Skills Page Bars */
 .filler {
-  position: relative;
-  border-top: 30px solid white;
-  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  background: #3d4147;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.inner__filler_1 {
+  width: 95%;
+  margin-left: 2px;
+  background: #777e8b;
+  height: 20px;
+  border-radius: 8px;
+}
+
+.inner__filler_2 {
+  width: 70%;
+  margin-left: 2px;
+  background: #777e8b;
+  height: 20px;
+  border-radius: 8px;
+}
+
+.inner__filler_3 {
+  width: 90%;
+  margin-left: 2px;
+  background: #777e8b;
+  height: 20px;
+  border-radius: 8px;
+}
+
+.inner__filler_4 {
+  width: 60%;
+  margin-left: 2px;
+  background: #777e8b;
+  height: 20px;
+  border-radius: 8px;
 }
 
 /* Works Page Styling */
